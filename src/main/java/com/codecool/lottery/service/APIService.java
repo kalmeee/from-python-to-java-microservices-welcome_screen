@@ -13,7 +13,7 @@ import java.net.URISyntaxException;
 public class APIService {
 
     private static final Logger logger = LoggerFactory.getLogger(APIService.class);
-    private static final String API_URL = "https://api.chucknorris.io/jokes";
+    private static final String API_URL = "email sending service here";
 
     private static APIService INSTANCE;
 
