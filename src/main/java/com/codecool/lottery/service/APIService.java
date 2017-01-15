@@ -17,6 +17,11 @@ public class APIService {
 
     private static APIService INSTANCE;
 
+    /**
+     * singleton constructor
+     * @return
+     */
+
     public static APIService getInstance() {
         if (INSTANCE == null) {
             INSTANCE = new APIService();

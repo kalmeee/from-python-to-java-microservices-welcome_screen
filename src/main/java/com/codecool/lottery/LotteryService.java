@@ -9,6 +9,10 @@ import java.net.URISyntaxException;
 
 import static spark.Spark.*;
 
+/**
+ * Lottery server
+ */
+
 public class LotteryService {
     private static final Logger logger = LoggerFactory.getLogger(LotteryService.class);
 
